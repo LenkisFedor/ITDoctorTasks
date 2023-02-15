@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+}
+.traffic_light{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;    
+}
+.red{
+    background-color: red; 
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color:green;
+}

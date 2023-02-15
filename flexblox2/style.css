@@ -1,0 +1,33 @@
+ul{
+    list-style: none;
+}
+header{
+    margin: 0 auto;
+}
+ul.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.buttons > li{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding: 15px;
+}
+ul.buttons >li > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #999;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+ul.buttons > li > a:hover{
+    font-weight: bold;
+    background-color: #042738;
+    color: #a05d3a;
+}
+
+div.menu_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

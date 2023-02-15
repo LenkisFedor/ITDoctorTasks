@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.example{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transition-duration: 1s, 1.5s;
+    transition-property: transform, background-color;
+    transition-delay: 1s, 0s;
+}
+
+.example:hover{
+    background-color: red;
+    transform: scale(1.2);
+
+}

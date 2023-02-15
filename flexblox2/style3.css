@@ -1,0 +1,39 @@
+.stat2 {
+    padding: 15px;
+    background-color: #052738;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #a05d3a;
+    border-radius: 15px;
+}
+.item {
+    flex-basis: 20%;
+    text-align: center;
+    /* padding: 15px 100px; */
+
+}
+.item > .number {
+    font-family: sans-serif;
+    color: #052738;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.item > .text {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #ffc38d;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.line {
+    margin: 0 auto; 
+    width: 8%;
+    height: 1px;
+    background-color: #ffc38d;
+}

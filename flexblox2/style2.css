@@ -1,0 +1,35 @@
+div.stat{
+    background-color: #042738;
+    /* display: flex; */
+    color: white;
+    /* justify-content: center; */
+}
+
+.stat table{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.stat table > tr{
+    align-items: center;
+}
+tr.numbers{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 55px;
+    color: #a05d3a;
+}
+tr.names{
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+tr.numbers > td{
+    padding: 0 100px;
+}
+.text{
+    font-size: 40px;
+}

@@ -1,0 +1,49 @@
+button{
+    cursor: pointer;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.link{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border: 1px black solid;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.button{
+    border: 1px black solid;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.container{
+    margin-left: auto;
+    margin-top: auto;
+}
+a:hover{
+    color: red;
+}
+ul{
+    list-style: none;
+}
+
+.list1 li:nth-child(3){
+    color: aqua;
+}
+
+.greating div:nth-child(odd){
+    background-color: antiquewhite;
+}
+.text::before{
+    content: "@";
+}
+
+header{
+    background-color: darkgray;
+}
+.login_div{
+    text-align: right;
+}

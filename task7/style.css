@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.example{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+
+}
+
+.example:hover{
+    animation-name: myAnim;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: forwards;
+}
+
+@keyframes myAnim{
+    from{
+        background-color: aqua;
+    }
+
+    50%{
+        background-color: red;
+        transform: scale(1.4);
+    }
+    to{
+        background-color: green;
+    }
+}
